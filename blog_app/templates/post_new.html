@@ -10,6 +10,11 @@
         <input type="submit" value="Save">
     </form>
 
+    <script>
+        var name = "{{ user.id }}";
+        document.getElementById("active user").value = name;
+        
+    </script>
 {% else%}
     <p> You need to register/login to post new articles </p>
 

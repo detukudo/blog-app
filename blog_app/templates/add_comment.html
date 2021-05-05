@@ -11,7 +11,12 @@
         <button class="btn btn-secondary">Add Comment</button>
 
     </form>
-    
+
+    <script>
+        var name = "{{ user.username }}";
+        document.getElementById("active user").value = name;
+        
+    </script>   
 {% else %}
     <p>You need to register/login to comment on articles</p>
 
